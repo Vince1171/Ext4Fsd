@@ -619,7 +619,6 @@ Ex2ProcessUserPerfStat(
     IN ULONG                Length
 )
 {
-    PEXT2_VCB   Vcb = NULL;
     PDEVICE_OBJECT  DeviceObject = NULL;
 
     BOOLEAN     GlobalDataResourceAcquired = FALSE;

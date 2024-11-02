@@ -856,7 +856,6 @@ Ext2CreateFile(
     ULONG               CreateDisposition;
 
     BOOLEAN             bParentFcbCreated = FALSE;
-    BOOLEAN             bDir = FALSE;
     BOOLEAN             bFcbAllocated = FALSE;
     BOOLEAN             bCreated = FALSE;
 
@@ -1024,8 +1023,6 @@ McbExisting:
             UNICODE_STRING  PathName;
             UNICODE_STRING  RealName;
             UNICODE_STRING  RemainName;
-
-            LONG            i = 0;
 
             PathName = FileName;
             Mcb = NULL;

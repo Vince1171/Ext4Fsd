@@ -89,7 +89,6 @@ Ext2ProcessEntry(
 
     ULONG InfoLength = 0;
     ULONG NameLength = 0;
-    ULONG dwBytes = 0;
     LONGLONG FileSize = 0;
     LONGLONG AllocationSize;
     ULONG   FileAttributes = 0;
