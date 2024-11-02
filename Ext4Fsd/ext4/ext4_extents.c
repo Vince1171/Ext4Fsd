@@ -2152,7 +2152,7 @@ fix_extent_len:
 /*
  * returns 1 if current index have to be freed (even partial)
  */
-static int inline
+static inline int
 ext4_ext_more_to_rm(struct ext4_ext_path *path)
 {
 	BUG_ON(path->p_idx == NULL);
