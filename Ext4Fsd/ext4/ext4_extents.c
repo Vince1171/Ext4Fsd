@@ -80,13 +80,10 @@ static void ext4_free_blocks(void *icb, handle_t *handle, struct inode *inode, v
 static inline void ext_debug(char *str, ...)
 {
 }
-#if TRUE
+
 #define EXT4_ERROR_INODE(inode, str, ...) do {                      \
-            DbgPrint("inode[%p]: "##str "\n", inode, __VA_ARGS__);  \
+            DbgPrint("inode[%p]: "str "\n", inode, ##__VA_ARGS__);  \
         } while(0)
-#else
-#define EXT4_ERROR_INODE
-#endif
 
 #define ext4_std_error(s, err)
 #define assert ASSERT
