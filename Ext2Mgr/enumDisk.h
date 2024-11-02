@@ -336,7 +336,7 @@ typedef VOID (__stdcall *PFORMATEX)( PWCHAR DriveRoot,
 						  DWORD ClusterSize,
 						  PFMIFSCALLBACK Callback );
 
-#include "..\ext4fsd\include\common.h"
+#include "../ext4fsd/include/common.h"
 
 /*
  * structure definitions

@@ -14,7 +14,7 @@
  */
 
 #include "ext2fs.h"
-#include "linux\ext4.h"
+#include "linux/ext4.h"
 
 #pragma warning(push)
 #pragma warning(disable: 4018)

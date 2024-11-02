@@ -3,7 +3,7 @@
 #include <dbt.h>
 #include <tchar.h>
 #include < tlhelp32.h>
-#include "..\Ext2Srv\Ext2Pipe.h"
+#include "../Ext2Srv/Ext2Pipe.h"
 
 
 /*

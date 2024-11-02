@@ -10,8 +10,8 @@
 /* INCLUDES *****************************************************************/
 
 #include "ext2fs.h"
-#include "linux\ext4.h"
-#include "linux\ext4_xattr.h"
+#include "linux/ext4.h"
+#include "linux/ext4_xattr.h"
 
 /* GLOBALS ***************************************************************/
 
