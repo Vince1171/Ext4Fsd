@@ -773,7 +773,6 @@ Ext2WriteFile(IN PEXT2_IRP_CONTEXT IrpContext)
     BOOLEAN             PagingIoResourceAcquired = FALSE;
 
     BOOLEAN             bDeferred = FALSE;
-    BOOLEAN             UpdateFileValidSize = FALSE;
     BOOLEAN             FileSizesChanged = FALSE;
     BOOLEAN             rc;
 

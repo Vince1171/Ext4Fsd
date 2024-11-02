@@ -373,7 +373,6 @@ static int __ext4_ext_check(const char *function, unsigned int line,
 {
 	struct ext4_extent_tail *tail;
 	const char *error_msg;
-	int max = 0;
 
 	if (eh->eh_magic != EXT4_EXT_MAGIC) {
 		error_msg = "invalid magic";

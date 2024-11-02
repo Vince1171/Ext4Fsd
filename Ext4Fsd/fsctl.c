@@ -296,7 +296,6 @@ Ext2InvalidateVolumes ( IN PEXT2_IRP_CONTEXT IrpContext )
     PIRP                Irp;
     PIO_STACK_LOCATION  IrpSp;
 
-    PVPB                NewVpb = NULL;
     HANDLE              Handle;
     PLIST_ENTRY         ListEntry;
 

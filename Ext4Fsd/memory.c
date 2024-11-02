@@ -527,7 +527,6 @@ Ext2JointExtents(
     IN PEXT2_EXTENT Extent
 )
 {
-    ULONG        count = 0;
     PEXT2_EXTENT List = Chain;
 
     while (List->Next) {
@@ -1525,7 +1524,6 @@ errorout:
 VOID
 Ext2FreeMcb (IN PEXT2_VCB Vcb, IN PEXT2_MCB Mcb)
 {
-    PEXT2_MCB   Parent = Mcb->Parent;
 
     ASSERT(Mcb != NULL);
 
